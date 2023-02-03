@@ -22,24 +22,25 @@ body {
 
     .info {
         height: 100%;
-        padding: 50px;
+        padding: 0px 20px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
 
     .info_discover {
-        height: 50%;
+        height: 70%;
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
 
     .info_stats {
-        height: 50%;
+        height: 30%;
         display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
         text-align: center;
-        justify-content: space-around;
     }
 
     .img_header {
@@ -48,18 +49,24 @@ body {
     }
 
     .mayusculas {
-
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-family: 'Inter';
         color: hsl(0, 0%, 100%);
+    }
+
+    .minusculas {
+        padding: 10px;
+        color: hsla(0, 0%, 100%, 0.6);
+        line-height: 20px;
+    }
+
+    .info_stats .mayusculas {
         grid-row-start: 1;
         grid-row-end: 2;
     }
 
-    .minusculas {
-        color: hsla(0, 0%, 100%, 0.6);
-        line-height: 20px;
-        font-size: 0.8rem;
+    .info_stats .minusculas {
+        font-size: 0.7rem;
         font-family: Montserrat;
     }
 
