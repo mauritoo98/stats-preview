@@ -1,0 +1,16 @@
+body {
+    background-color: hsl(233, 47%, 7%);
+    font-size: 15px;
+}
+
+.principal_main {
+    width: 80%;
+    background-color: hsl(244, 38%, 16%);
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.mayusculas {
+    color: hsl(0, 0%, 100%);
+}
